@@ -1,0 +1,56 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1061613,
+    "appName": "U613 Stat",
+    "appType": "app",
+    "version": {
+      "code": 11,
+      "name": "1.0.10"
+    },
+    "icon": "icon.png",
+    "vender": "luv613",
+    "description": "Статистика LuvU613 на часах: восемь цветных полосок"
+  },
+  "permissions": [
+    "device:os.local_storage"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index",
+            "page/quick"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "sr": "w432"
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "U613 Stat"
+    },
+    "ru-RU": {
+      "appName": "U613 Stat"
+    }
+  },
+  "defaultLanguage": "en-US"
+}

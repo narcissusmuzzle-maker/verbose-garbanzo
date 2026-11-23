@@ -1,0 +1,13 @@
+{
+  "name": "u613-stat",
+  "version": "1.0.10",
+  "private": true,
+  "description": "U613 Stat для Amazfit Bip Max (Zepp OS): статистика приложения LuvU613 восемью цветными полосками",
+  "scripts": {
+    "build": "zeus build",
+    "test": "node tests/layout.test.mjs && node tests/colors.test.mjs && node tests/share.test.mjs && node tests/pages.test.mjs"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.39"
+  }
+}
